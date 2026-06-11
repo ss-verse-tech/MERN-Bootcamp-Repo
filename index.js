@@ -113,3 +113,53 @@
 // (()=>{
 //     console.log("I am IIFE");
 // })()
+
+//  CallBack function , Higher order function , Anonymous function
+
+// Callback  -- A function which is passes as an argument with another function is known as 
+// callback function
+
+// Higher order function -- A function which takes a function as an argument is called HOF.
+// function sum(a,b, subtract){
+//     console.log(subtract(a,b));
+//     return a+b;
+// }
+
+// function subtract(a,b){
+//     return a-b;
+// }
+
+// console.log(sum(4,5,subtract));
+// Array distructuring
+// let arr = [1,2,3,4];
+// let [a,b,c,d,e] = arr;
+// console.log(a);
+// console.log(b);
+// console.log(e);
+
+// Object Distructuring
+// let obj = {
+//     name:"Aman",
+//     age:20,
+//     profession:"Student"
+// }
+
+// let {name, age} = obj
+// console.log(name,age);
+
+// Spread Operator
+
+
+// let arr = [1,2,3,4];
+// let arr1 = [5,6,7,8];
+// let newArr = [...arr, ...arr1];
+
+// console.log(newArr);
+
+// Rest Operator
+
+// function add(...val){
+//     return val
+// }
+// console.log(add(1,2,3,4,"mohit", {name:"Arjun"}));
+
