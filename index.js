@@ -163,3 +163,23 @@
 // }
 // console.log(add(1,2,3,4,"mohit", {name:"Arjun"}));
 
+const home = document.getElementById("home");
+const about = document.getElementById("about")
+const contact = document.getElementById("contact")
+
+
+// function Home(e){
+//     // console.log(e.target.innerText);
+//     alert(e.target.innerText)
+// }
+
+
+// function About(e){
+//     alert(e.target.innerText)
+// }
+
+// function Contact(e){
+//     alert(e.target.innerText)
+// }
+
+

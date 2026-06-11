@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        li{
+            list-style-type: none;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        button{
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            padding: 3px 12px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <ul>
+            <li id="home" onclick="Home(event)">Home</li>
+            <li id="about" onclick="About(event)">About</li>
+            <li id="contact" onclick="Contact(event)">Contact</li>
+        </ul>
+        <button>Submit</button>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
